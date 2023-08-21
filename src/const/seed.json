@@ -1,0 +1,2622 @@
+[
+  {
+    "profile": [
+      {
+        "id": "161c2109-709f-4bb9-8067-81626497ba27",
+        "bio": "Passionate about helping others",
+        "specialty": "Cardiology",
+        "education": "Bachelor of Medicine",
+        "experience": "10 years of clinical experience",
+        "location": "New York, NY",
+        "created_at": "2023-08-21T10:57:36.520Z",
+        "updated_at": "2023-08-21T11:11:38.509Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "467eba99-2aeb-4752-8bab-4773f6a7c7d3",
+        "bio": "Experienced in providing quality care",
+        "specialty": "Pediatrics",
+        "education": "Master of Science in Nursing",
+        "experience": "5 years of research experience",
+        "location": "Los Angeles, CA",
+        "created_at": "2023-08-21T06:16:55.145Z",
+        "updated_at": "2023-08-20T18:27:59.037Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "858efebc-e8e7-47a8-b0ae-020d3ec3cb87",
+        "bio": "Committed to patient well-being",
+        "specialty": "Orthopedics",
+        "education": "Doctor of Pharmacy",
+        "experience": "Extensive surgical experience",
+        "location": "Chicago, IL",
+        "created_at": "2023-08-21T08:23:34.908Z",
+        "updated_at": "2023-08-20T20:50:01.256Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dfa4d32-d555-40a6-8c0f-5cc15f7482fe",
+        "bio": "Dedicated to continuous learning",
+        "specialty": "Dermatology",
+        "education": "Bachelor of Dental Surgery",
+        "experience": "Specialized training in geriatrics",
+        "location": "Houston, TX",
+        "created_at": "2023-08-20T16:11:40.380Z",
+        "updated_at": "2023-08-21T12:10:06.276Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bf73224-877d-4048-a5db-d21b44a44cfe",
+        "bio": "Skilled in various medical procedures",
+        "specialty": "Gastroenterology",
+        "education": "Master of Physical Therapy",
+        "experience": "Expertise in medical imaging",
+        "location": "Philadelphia, PA",
+        "created_at": "2023-08-21T07:31:20.847Z",
+        "updated_at": "2023-08-20T16:44:11.555Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "8d69e0ef-2b58-4f53-9ca1-701789edb54f",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication management",
+        "notes": "Patient responded well to treatment",
+        "created_at": "2023-08-21T01:16:56.640Z",
+        "updated_at": "2023-08-21T08:48:25.614Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "66b58c85-5f8d-4f27-a06b-c1e3703a762e",
+        "diagnosis": "Diabetes",
+        "treatment": "Physical therapy",
+        "notes": "Regular follow-up appointments recommended",
+        "created_at": "2023-08-20T17:37:05.217Z",
+        "updated_at": "2023-08-20T22:42:34.807Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "f5d248d0-e6e7-473a-8ce8-5e2fe5b0141d",
+        "diagnosis": "Asthma",
+        "treatment": "Surgical intervention",
+        "notes": "Patient reported improvement in symptoms",
+        "created_at": "2023-08-21T14:17:58.436Z",
+        "updated_at": "2023-08-20T16:34:15.694Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b234c3bf-326d-4a45-a1c0-7896d02c61ec",
+        "diagnosis": "Cancer",
+        "treatment": "Counseling",
+        "notes": "Treatment plan adjusted based on test results",
+        "created_at": "2023-08-21T09:35:48.571Z",
+        "updated_at": "2023-08-20T23:43:13.423Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "7f2d31b6-0e22-4bec-9298-e357747536ff",
+        "diagnosis": "Depression",
+        "treatment": "Lifestyle modifications",
+        "notes": "Patient experienced adverse reaction to medication",
+        "created_at": "2023-08-20T16:48:22.727Z",
+        "updated_at": "2023-08-21T13:41:11.675Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "86d806d1-b80e-4ca7-98c1-3dbaf39c8a87",
+        "date": "2023-08-21T10:48:58.222Z",
+        "time": "2023-08-20T20:55:28.446Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-20T21:30:12.430Z",
+        "updated_at": "2023-08-20T21:04:53.449Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "04f89699-628e-4e9f-8db9-97ad2d8868b2",
+        "date": "2023-08-21T07:58:19.218Z",
+        "time": "2023-08-20T21:24:03.428Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T00:43:30.967Z",
+        "updated_at": "2023-08-21T09:24:18.100Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "4539c2d8-42d6-48ed-9dc6-88b1a6364dc4",
+        "date": "2023-08-21T12:19:03.777Z",
+        "time": "2023-08-20T14:41:36.308Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T14:03:50.146Z",
+        "updated_at": "2023-08-20T19:20:13.287Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c72b4ba8-58a4-4753-b60a-0723482db443",
+        "date": "2023-08-21T04:18:29.891Z",
+        "time": "2023-08-20T22:26:55.174Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-20T17:40:37.253Z",
+        "updated_at": "2023-08-21T04:38:46.112Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6a5e1e47-ae00-4ba6-8df3-86711df172ba",
+        "date": "2023-08-21T14:20:53.144Z",
+        "time": "2023-08-21T02:56:10.700Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T05:47:55.005Z",
+        "updated_at": "2023-08-20T22:48:58.221Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "c07239e3-0226-434d-a418-c93664ac9c5a",
+        "start_time": "2023-08-21T02:36:46.100Z",
+        "end_time": "2023-08-21T11:55:56.935Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-20T20:18:33.180Z",
+        "updated_at": "2023-08-20T21:58:48.166Z",
+        "appointment_id": "04f89699-628e-4e9f-8db9-97ad2d8868b2",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "916be7c7-1b4d-4842-9cc3-6c288c2ea331",
+        "start_time": "2023-08-21T08:35:39.434Z",
+        "end_time": "2023-08-20T23:31:41.307Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-20T20:47:15.887Z",
+        "updated_at": "2023-08-20T16:50:30.016Z",
+        "appointment_id": "6a5e1e47-ae00-4ba6-8df3-86711df172ba",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "411bc3f5-f67b-474e-aa17-54a86ac25a6b",
+        "start_time": "2023-08-20T22:32:16.996Z",
+        "end_time": "2023-08-21T05:51:39.733Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-21T06:09:12.099Z",
+        "updated_at": "2023-08-20T22:13:16.362Z",
+        "appointment_id": "6a5e1e47-ae00-4ba6-8df3-86711df172ba",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "051d302e-2f18-4ed7-a239-39493f79113e",
+        "start_time": "2023-08-20T23:01:18.551Z",
+        "end_time": "2023-08-20T20:58:52.825Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-21T12:09:50.764Z",
+        "updated_at": "2023-08-21T07:47:18.103Z",
+        "appointment_id": "c72b4ba8-58a4-4753-b60a-0723482db443",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "0bed1a45-2cee-4a78-9cb4-1127716c9360",
+        "start_time": "2023-08-21T02:42:13.236Z",
+        "end_time": "2023-08-21T10:29:26.052Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T14:28:01.475Z",
+        "updated_at": "2023-08-21T03:08:47.685Z",
+        "appointment_id": "04f89699-628e-4e9f-8db9-97ad2d8868b2",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "49982ac2-4a33-40a8-a0fa-f8ae92af03f2",
+        "email": "Vanessa.Connelly@hotmail.com",
+        "firstName": "Khalil",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42697130",
+        "tenantId": null
+      },
+      {
+        "reference": "cc19fda4-2f1d-4df1-84bc-821a2b6bc11a",
+        "email": "Valerie86@yahoo.com",
+        "firstName": "Jonathan",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1078.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e1853e7-65b2-4fe3-bc62-c84fd6fa7f09",
+        "email": "Makenna5@hotmail.com",
+        "firstName": "Ernest",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22575244",
+        "tenantId": null
+      },
+      {
+        "reference": "94207592-a35d-4a8e-b255-5523db7bc486",
+        "email": "Caitlyn.Rohan@yahoo.com",
+        "firstName": "Ceasar",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1080.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c1c2708a-d72f-4cc0-bbda-07db989ac1c9",
+        "email": "Damaris.Durgan@hotmail.com",
+        "firstName": "Sarina",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1159.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "672d3575-2373-4867-bb0b-dcca169843f2",
+        "bio": "Passionate about helping others",
+        "specialty": "Cardiology",
+        "education": "Bachelor of Medicine, University of XYZ",
+        "experience": "10 years of clinical experience",
+        "location": "New York, NY",
+        "created_at": "2023-08-21T05:26:18.979Z",
+        "updated_at": "2023-08-20T20:50:22.126Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50d9dfa4-9049-4043-84d2-65367fa2ffaa",
+        "bio": "Experienced in the field of medicine",
+        "specialty": "Dermatology",
+        "education": "Master of Science in Nursing, University of ABC",
+        "experience": "5 years of research experience",
+        "location": "Los Angeles, CA",
+        "created_at": "2023-08-21T10:15:35.755Z",
+        "updated_at": "2023-08-20T16:59:15.443Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c760878-4818-4158-b255-192f553a39a5",
+        "bio": "Committed to providing quality care",
+        "specialty": "Gastroenterology",
+        "education": "Doctor of Osteopathic Medicine, University of PQR",
+        "experience": "3 years of teaching experience",
+        "location": "Chicago, IL",
+        "created_at": "2023-08-21T03:54:05.804Z",
+        "updated_at": "2023-08-21T10:11:22.837Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9e9d3e0-9550-4753-aebe-ccadeff4d15d",
+        "bio": "Dedicated to lifelong learning",
+        "specialty": "Neurology",
+        "education": "Bachelor of Science in Pharmacy, University of DEF",
+        "experience": "8 years of surgical experience",
+        "location": "Houston, TX",
+        "created_at": "2023-08-20T22:37:31.285Z",
+        "updated_at": "2023-08-21T02:07:15.676Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39261146-48d2-4760-b068-526169b93d01",
+        "bio": "Skilled in patient communication",
+        "specialty": "Orthopedics",
+        "education": "Doctor of Dental Surgery, University of LMN",
+        "experience": "2 years of administrative experience",
+        "location": "Philadelphia, PA",
+        "created_at": "2023-08-21T06:16:38.656Z",
+        "updated_at": "2023-08-21T10:34:15.623Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "ae7666fd-af26-4ca5-8ed2-fd9f16a8b4b6",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication and lifestyle changes",
+        "notes": "Patient has a family history of heart disease",
+        "created_at": "2023-08-21T09:01:02.126Z",
+        "updated_at": "2023-08-21T10:11:15.890Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ab7c1863-2e84-481f-9537-e4d1eca7f92c",
+        "diagnosis": "Diabetes",
+        "treatment": "Insulin therapy and diet management",
+        "notes": "Patient is allergic to penicillin",
+        "created_at": "2023-08-21T10:02:41.734Z",
+        "updated_at": "2023-08-21T01:43:29.097Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "27f53fc2-c84a-47a1-922e-d700c5ad0c8c",
+        "diagnosis": "Asthma",
+        "treatment": "Bronchodilators and inhalers",
+        "notes": "Patient experienced a previous stroke",
+        "created_at": "2023-08-20T21:38:55.266Z",
+        "updated_at": "2023-08-20T19:35:14.834Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6c446861-075d-4674-b4df-bedf2fae95b2",
+        "diagnosis": "Cancer",
+        "treatment": "Chemotherapy and radiation therapy",
+        "notes": "Patient underwent surgery for tumor removal",
+        "created_at": "2023-08-21T10:58:08.883Z",
+        "updated_at": "2023-08-21T04:16:09.935Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "46008221-4e82-42bc-a5ac-076e0b5b0e79",
+        "diagnosis": "Depression",
+        "treatment": "Cognitive-behavioral therapy and antidepressants",
+        "notes": "Patient has a history of anxiety disorder",
+        "created_at": "2023-08-20T15:00:02.240Z",
+        "updated_at": "2023-08-21T10:56:13.708Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "154585a4-2cb8-4629-b492-3da64190b008",
+        "date": "2023-08-21T01:27:52.150Z",
+        "time": "2023-08-20T19:33:22.426Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-21T14:14:41.476Z",
+        "updated_at": "2023-08-21T05:30:31.951Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "eed66fe1-fd29-46ba-85b3-3ed36cc65214",
+        "date": "2023-08-20T18:19:20.279Z",
+        "time": "2023-08-21T06:49:13.343Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T08:29:22.913Z",
+        "updated_at": "2023-08-21T05:37:33.015Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "8a1c0d6f-ccb8-4922-a23f-69fe08d29181",
+        "date": "2023-08-20T19:04:27.603Z",
+        "time": "2023-08-21T07:13:07.413Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T02:57:14.636Z",
+        "updated_at": "2023-08-20T16:02:14.096Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d4bb98e1-f78c-427c-ba66-ec4478248a57",
+        "date": "2023-08-20T21:26:31.803Z",
+        "time": "2023-08-21T10:32:05.714Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-20T19:44:09.699Z",
+        "updated_at": "2023-08-21T11:39:53.137Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "94eb6a64-71f4-40ed-95eb-50b1cff5b986",
+        "date": "2023-08-21T01:49:34.071Z",
+        "time": "2023-08-21T11:45:19.497Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T08:50:55.632Z",
+        "updated_at": "2023-08-21T00:54:10.385Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "a170fbd8-0a15-48e1-94b9-488d513c68a9",
+        "start_time": "2023-08-20T23:04:27.104Z",
+        "end_time": "2023-08-20T16:28:47.081Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-21T07:27:25.029Z",
+        "updated_at": "2023-08-20T14:48:49.179Z",
+        "appointment_id": "8a1c0d6f-ccb8-4922-a23f-69fe08d29181",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "0aac6342-2518-4525-9541-99997b8f07f4",
+        "start_time": "2023-08-21T01:45:09.475Z",
+        "end_time": "2023-08-20T18:02:24.689Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-21T09:06:43.532Z",
+        "updated_at": "2023-08-21T13:18:37.386Z",
+        "appointment_id": "94eb6a64-71f4-40ed-95eb-50b1cff5b986",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "3b34cb6e-b2d3-44b1-a174-7f75f49d04ea",
+        "start_time": "2023-08-20T15:44:02.678Z",
+        "end_time": "2023-08-21T06:19:29.630Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-21T07:25:35.767Z",
+        "updated_at": "2023-08-21T14:25:30.296Z",
+        "appointment_id": "154585a4-2cb8-4629-b492-3da64190b008",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "fa6b4554-bee4-4f7a-869d-cb6ed0bb19cb",
+        "start_time": "2023-08-21T03:31:46.681Z",
+        "end_time": "2023-08-21T13:20:52.313Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-21T05:12:06.445Z",
+        "updated_at": "2023-08-20T22:12:46.007Z",
+        "appointment_id": "d4bb98e1-f78c-427c-ba66-ec4478248a57",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "5322ce5e-efd6-4303-97f4-0abfa9ffe4d7",
+        "start_time": "2023-08-21T00:00:35.703Z",
+        "end_time": "2023-08-21T14:17:34.321Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T08:27:25.421Z",
+        "updated_at": "2023-08-21T02:09:33.121Z",
+        "appointment_id": "d4bb98e1-f78c-427c-ba66-ec4478248a57",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "897e9668-dfe0-4227-874e-e09e2c7ee03f",
+        "email": "Werner_Bogan72@gmail.com",
+        "firstName": "Sadye",
+        "lastName": "Conn-Franey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/280.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "00c3a6d7-6b7f-4aa1-a3f7-2a1be70dae80",
+        "email": "Sherwood.Kovacek@hotmail.com",
+        "firstName": "Giles",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/842.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d6a28c73-d4cc-46f5-9ea5-dc06edbdf004",
+        "email": "Bessie.Jones@gmail.com",
+        "firstName": "Greta",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26094209",
+        "tenantId": null
+      },
+      {
+        "reference": "0ba3d2f3-1d4d-419e-9ee6-ac2132cc0223",
+        "email": "Carol.Mueller33@gmail.com",
+        "firstName": "Rosina",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/217.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "794bb6d8-74ca-4b38-b41f-fb8625c007fa",
+        "email": "Elsa_Parker12@yahoo.com",
+        "firstName": "Petra",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34053747",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "39098a83-a2a2-4bbc-8c34-4778f4984a3c",
+        "bio": "Passionate about helping others",
+        "specialty": "Cardiology",
+        "education": "Bachelor of Medicine, University of XYZ",
+        "experience": "10 years of clinical experience",
+        "location": "New York, NY",
+        "created_at": "2023-08-20T23:12:53.575Z",
+        "updated_at": "2023-08-21T11:58:03.403Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98edb291-f32f-455f-9135-16b09da56c77",
+        "bio": "Experienced in various medical fields",
+        "specialty": "Dermatology",
+        "education": "Master of Science in Nursing, University of ABC",
+        "experience": "5 years of research experience",
+        "location": "Los Angeles, CA",
+        "created_at": "2023-08-21T07:50:31.471Z",
+        "updated_at": "2023-08-20T15:45:16.075Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5241abe-8dd9-42f8-9c57-3ccc11379eed",
+        "bio": "Dedicated to providing quality care",
+        "specialty": "Gastroenterology",
+        "education": "Doctor of Osteopathic Medicine, University of DEF",
+        "experience": "3 years of teaching experience",
+        "location": "Chicago, IL",
+        "created_at": "2023-08-20T17:14:00.900Z",
+        "updated_at": "2023-08-20T19:48:46.802Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5498748f-bbe8-4e14-a951-18b92bb9b633",
+        "bio": "Committed to ongoing professional development",
+        "specialty": "Neurology",
+        "education": "Bachelor of Science in Pharmacy, University of GHI",
+        "experience": "8 years of administrative experience",
+        "location": "Houston, TX",
+        "created_at": "2023-08-20T23:22:16.379Z",
+        "updated_at": "2023-08-20T15:45:24.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2864f417-8fba-4203-bca1-3b2d4fd98af4",
+        "bio": "Skilled in patient communication",
+        "specialty": "Orthopedics",
+        "education": "Master of Occupational Therapy, University of JKL",
+        "experience": "2 years of telemedicine experience",
+        "location": "Philadelphia, PA",
+        "created_at": "2023-08-21T12:12:44.714Z",
+        "updated_at": "2023-08-21T04:15:30.939Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "5fcc5507-e2d4-499d-bfa6-dee4c4a79d92",
+        "diagnosis": "Hypertension",
+        "treatment": "Prescription medication",
+        "notes": "Patient has a family history of heart disease",
+        "created_at": "2023-08-21T02:19:07.675Z",
+        "updated_at": "2023-08-20T23:39:55.525Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "c458ec1c-ef35-4838-8ca6-2c9c928ebee1",
+        "diagnosis": "Diabetes Mellitus",
+        "treatment": "Physical therapy",
+        "notes": "Patient experienced significant weight loss",
+        "created_at": "2023-08-20T16:39:05.847Z",
+        "updated_at": "2023-08-21T08:47:52.916Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "9324dfe9-f857-47c3-99c7-8344013bd3ad",
+        "diagnosis": "Asthma",
+        "treatment": "Surgery",
+        "notes": "Patient has allergies to penicillin",
+        "created_at": "2023-08-21T04:58:06.531Z",
+        "updated_at": "2023-08-21T06:29:13.374Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "a78c1797-84a1-49db-9818-b05e1448d1f6",
+        "diagnosis": "Depression",
+        "treatment": "Counseling",
+        "notes": "Patient is a smoker",
+        "created_at": "2023-08-21T06:24:58.860Z",
+        "updated_at": "2023-08-21T00:06:01.667Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d98066bd-4f79-4da9-8885-b468dffee9e1",
+        "diagnosis": "Osteoarthritis",
+        "treatment": "Lifestyle modifications",
+        "notes": "Patient has a history of sports injuries",
+        "created_at": "2023-08-20T16:10:51.708Z",
+        "updated_at": "2023-08-20T15:50:22.977Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "2cf6b66e-9dd8-4d00-8ffd-6cf378197f3c",
+        "date": "2023-08-21T13:03:53.653Z",
+        "time": "2023-08-21T11:24:41.466Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-20T23:35:19.687Z",
+        "updated_at": "2023-08-20T19:29:22.174Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "892c4779-6f0c-4134-9558-d1a4cfa62350",
+        "date": "2023-08-20T17:19:34.182Z",
+        "time": "2023-08-21T02:03:49.632Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T13:25:34.039Z",
+        "updated_at": "2023-08-20T17:58:40.371Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "bede08da-92a1-4bf6-add4-3eb44d5f20ff",
+        "date": "2023-08-20T19:02:42.434Z",
+        "time": "2023-08-21T12:26:38.869Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T23:04:18.052Z",
+        "updated_at": "2023-08-21T00:20:54.084Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b705770c-eccc-4b5f-8b87-5caf502137fe",
+        "date": "2023-08-21T01:57:52.919Z",
+        "time": "2023-08-20T23:13:25.823Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-21T02:04:15.701Z",
+        "updated_at": "2023-08-21T00:17:10.067Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "66c4c1bc-3406-41a7-93fb-896bb3e20b68",
+        "date": "2023-08-21T03:58:28.532Z",
+        "time": "2023-08-20T22:48:46.349Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T14:10:00.399Z",
+        "updated_at": "2023-08-21T00:52:56.395Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "db426c36-8241-4485-ae67-c20d316d1ad7",
+        "start_time": "2023-08-20T16:58:35.137Z",
+        "end_time": "2023-08-20T16:23:48.047Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-21T00:33:17.653Z",
+        "updated_at": "2023-08-20T16:39:31.253Z",
+        "appointment_id": "2cf6b66e-9dd8-4d00-8ffd-6cf378197f3c",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "61c4eed2-8bf6-4417-a6ff-c41875a79df8",
+        "start_time": "2023-08-21T03:12:46.600Z",
+        "end_time": "2023-08-21T00:30:20.587Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-21T03:49:19.029Z",
+        "updated_at": "2023-08-20T20:08:32.771Z",
+        "appointment_id": "892c4779-6f0c-4134-9558-d1a4cfa62350",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "b831faf4-612b-41e3-a8bd-b15ade25de9c",
+        "start_time": "2023-08-20T22:38:43.384Z",
+        "end_time": "2023-08-20T20:07:07.200Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-20T21:36:58.234Z",
+        "updated_at": "2023-08-21T08:05:21.247Z",
+        "appointment_id": "bede08da-92a1-4bf6-add4-3eb44d5f20ff",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "634fde65-adfc-4235-88e4-a853e2f98b18",
+        "start_time": "2023-08-21T02:21:47.727Z",
+        "end_time": "2023-08-20T18:28:05.278Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-21T02:36:08.672Z",
+        "updated_at": "2023-08-21T03:35:27.507Z",
+        "appointment_id": "66c4c1bc-3406-41a7-93fb-896bb3e20b68",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "c2b32d6f-b095-4b1d-bf36-4175fc293bef",
+        "start_time": "2023-08-21T02:02:10.809Z",
+        "end_time": "2023-08-20T22:11:49.747Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T09:02:38.549Z",
+        "updated_at": "2023-08-21T09:36:36.709Z",
+        "appointment_id": "b705770c-eccc-4b5f-8b87-5caf502137fe",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f73808a5-6e3e-48c3-bd21-0ac07e5aaeb0",
+        "email": "April.Renner@hotmail.com",
+        "firstName": "Laurel",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/260.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8be8a690-399b-46dc-abd8-a5ad54ebfa35",
+        "email": "Shannon.Feest@hotmail.com",
+        "firstName": "Corine",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/632.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62a09c7a-aa1d-440f-8539-cb0bb576ecfc",
+        "email": "Lenora71@hotmail.com",
+        "firstName": "Arlie",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/119.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83889f98-e7c4-4b1d-b85b-b10c9fd76c6a",
+        "email": "Imelda_Altenwerth64@yahoo.com",
+        "firstName": "Chelsie",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dfbdbb2-65f8-4c65-a71b-5622531da94c",
+        "email": "Drew.Ritchie35@hotmail.com",
+        "firstName": "Misty",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43433339",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "968a2b88-bb8c-47b8-813f-177880672134",
+        "bio": "Passionate about helping others.",
+        "specialty": "Cardiology",
+        "education": "Bachelor of Medicine",
+        "experience": "5 years of clinical experience",
+        "location": "New York, NY",
+        "created_at": "2023-08-21T11:26:57.465Z",
+        "updated_at": "2023-08-20T22:14:23.852Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05857ebb-74fc-41f5-8e3c-b1ee205a5342",
+        "bio": "Experienced in various medical fields.",
+        "specialty": "Dermatology",
+        "education": "Doctor of Medicine",
+        "experience": "10 years of research experience",
+        "location": "Los Angeles, CA",
+        "created_at": "2023-08-21T13:42:48.274Z",
+        "updated_at": "2023-08-21T11:08:03.995Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09117e4b-1173-4fff-a14f-1a370d86a71f",
+        "bio": "Committed to providing quality care.",
+        "specialty": "Pediatrics",
+        "education": "Master of Science in Nursing",
+        "experience": "3 years of teaching experience",
+        "location": "Chicago, IL",
+        "created_at": "2023-08-21T14:36:13.897Z",
+        "updated_at": "2023-08-20T18:54:46.248Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3ed48fb-cd4c-4218-9f4b-d8cb25914caa",
+        "bio": "Dedicated to continuous learning.",
+        "specialty": "Orthopedics",
+        "education": "Bachelor of Science in Pharmacy",
+        "experience": "7 years of surgical experience",
+        "location": "Houston, TX",
+        "created_at": "2023-08-21T02:48:44.594Z",
+        "updated_at": "2023-08-20T17:20:30.760Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6d87c05-ffdd-4e94-bdba-86136436b401",
+        "bio": "Skilled in patient communication.",
+        "specialty": "Neurology",
+        "education": "Doctor of Pharmacy",
+        "experience": "2 years of administrative experience",
+        "location": "Philadelphia, PA",
+        "created_at": "2023-08-21T04:32:08.809Z",
+        "updated_at": "2023-08-21T12:48:28.919Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "e2d9fcfa-a2a5-40ef-92d6-bdd3beb42dea",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication",
+        "notes": "Patient has a family history of heart disease.",
+        "created_at": "2023-08-21T14:05:30.841Z",
+        "updated_at": "2023-08-21T13:51:56.901Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ea3f2984-53a3-4c7b-a483-9d7fb30f0b93",
+        "diagnosis": "Diabetes Mellitus",
+        "treatment": "Physical therapy",
+        "notes": "Patient experienced significant improvement after starting medication.",
+        "created_at": "2023-08-20T19:30:20.028Z",
+        "updated_at": "2023-08-20T20:05:05.268Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ce5e08bf-6e34-4d3b-9cc1-be5c529f35e5",
+        "diagnosis": "Asthma",
+        "treatment": "Surgery",
+        "notes": "Patient has been managing their condition effectively.",
+        "created_at": "2023-08-21T10:34:12.751Z",
+        "updated_at": "2023-08-20T19:16:41.441Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1e6b88ab-4963-4e61-a8cd-3486a608f99e",
+        "diagnosis": "Osteoarthritis",
+        "treatment": "Counseling",
+        "notes": "Patient reported increased pain in the affected joint.",
+        "created_at": "2023-08-21T02:06:47.676Z",
+        "updated_at": "2023-08-20T21:06:28.513Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3f21765a-d54f-4bdb-974b-d258b3375f8f",
+        "diagnosis": "Depression",
+        "treatment": "Lifestyle modifications",
+        "notes": "Patient has been compliant with treatment plan.",
+        "created_at": "2023-08-20T23:24:02.757Z",
+        "updated_at": "2023-08-21T07:10:48.189Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "f857b401-9e52-4357-8b80-fbf9df72eeb7",
+        "date": "2023-08-21T08:52:25.748Z",
+        "time": "2023-08-20T21:05:48.291Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-20T19:10:50.896Z",
+        "updated_at": "2023-08-21T12:19:41.772Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "37ca904b-c778-40f7-b039-feb42dd47eac",
+        "date": "2023-08-20T18:02:35.908Z",
+        "time": "2023-08-20T22:49:27.437Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T09:55:56.189Z",
+        "updated_at": "2023-08-20T17:33:59.558Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6be89010-5fba-4270-8fdd-9a29b1a7bd13",
+        "date": "2023-08-20T23:02:18.815Z",
+        "time": "2023-08-21T04:00:08.559Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T11:49:52.342Z",
+        "updated_at": "2023-08-21T02:28:26.846Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "348fa82d-162f-4d70-9409-59c8ef8b86bf",
+        "date": "2023-08-21T02:45:08.363Z",
+        "time": "2023-08-20T21:00:16.400Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-20T20:54:30.534Z",
+        "updated_at": "2023-08-21T00:22:52.174Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3e9dde15-7328-4031-b793-517e0c8cbfaf",
+        "date": "2023-08-21T02:03:58.275Z",
+        "time": "2023-08-21T13:14:21.380Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T18:11:36.579Z",
+        "updated_at": "2023-08-21T07:51:25.319Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "72974b79-3afa-44d0-a0ad-983f26b5121b",
+        "start_time": "2023-08-21T14:22:50.186Z",
+        "end_time": "2023-08-20T15:36:47.214Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-20T23:40:33.692Z",
+        "updated_at": "2023-08-20T17:29:40.732Z",
+        "appointment_id": "3e9dde15-7328-4031-b793-517e0c8cbfaf",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "9a11d568-8e4c-43f1-a670-2e30711962b6",
+        "start_time": "2023-08-21T11:26:28.283Z",
+        "end_time": "2023-08-21T12:20:46.491Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-20T23:32:14.738Z",
+        "updated_at": "2023-08-20T23:38:52.589Z",
+        "appointment_id": "6be89010-5fba-4270-8fdd-9a29b1a7bd13",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "b44c020a-5f93-40a8-94b0-d80a42e48c65",
+        "start_time": "2023-08-20T17:50:31.017Z",
+        "end_time": "2023-08-21T04:14:25.604Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-21T10:25:49.175Z",
+        "updated_at": "2023-08-20T16:57:03.696Z",
+        "appointment_id": "3e9dde15-7328-4031-b793-517e0c8cbfaf",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "753c064a-2a2a-4654-83f8-5e321670fbb9",
+        "start_time": "2023-08-21T04:43:08.832Z",
+        "end_time": "2023-08-21T07:55:21.053Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-21T10:03:27.004Z",
+        "updated_at": "2023-08-21T14:06:44.814Z",
+        "appointment_id": "348fa82d-162f-4d70-9409-59c8ef8b86bf",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "bec97de4-9f00-4108-ad56-658d7c211292",
+        "start_time": "2023-08-20T19:25:50.569Z",
+        "end_time": "2023-08-20T15:04:22.984Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T08:23:28.198Z",
+        "updated_at": "2023-08-20T14:54:56.745Z",
+        "appointment_id": "3e9dde15-7328-4031-b793-517e0c8cbfaf",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96a5df02-e529-465d-a21d-481e39c8341b",
+        "email": "Nathaniel37@yahoo.com",
+        "firstName": "Colton",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/715.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25110b5e-506b-4c55-8c33-67e19a81055a",
+        "email": "Werner.Stracke32@hotmail.com",
+        "firstName": "Lilian",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/705.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbe0b6d0-95f4-4207-a7fc-d09d2264be3e",
+        "email": "Maymie_Dooley@yahoo.com",
+        "firstName": "Melissa",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56615138",
+        "tenantId": null
+      },
+      {
+        "reference": "37f1ff9b-0310-45d8-a3fc-4db5647a1de6",
+        "email": "Liliana42@yahoo.com",
+        "firstName": "Salvador",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/987.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14aaa955-f086-43b6-822b-5a7fde1875a8",
+        "email": "Kris8@gmail.com",
+        "firstName": "Sofia",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45316315",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "6012d196-2008-4f85-85e1-687516b242c3",
+        "bio": "Passionate about helping others",
+        "specialty": "Cardiology",
+        "education": "Bachelor's Degree in Medicine",
+        "experience": "10 years of clinical experience",
+        "location": "New York, NY",
+        "created_at": "2023-08-20T22:18:19.414Z",
+        "updated_at": "2023-08-20T16:31:59.818Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e25e479-0d73-461c-82b7-f57e107ad04f",
+        "bio": "Experienced professional in the field",
+        "specialty": "Dermatology",
+        "education": "Master's Degree in Healthcare Administration",
+        "experience": "Extensive research background",
+        "location": "Los Angeles, CA",
+        "created_at": "2023-08-21T11:29:54.749Z",
+        "updated_at": "2023-08-20T16:27:51.989Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82adacb5-2194-444a-9eb0-cf4f4ea04279",
+        "bio": "Committed to providing quality care",
+        "specialty": "Neurology",
+        "education": "Doctorate in Nursing Practice",
+        "experience": "Published author in medical journals",
+        "location": "Chicago, IL",
+        "created_at": "2023-08-21T08:26:37.848Z",
+        "updated_at": "2023-08-21T11:12:38.880Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af9e3011-ee35-4197-945a-8329776a96d7",
+        "bio": "Dedicated to lifelong learning",
+        "specialty": "Pediatrics",
+        "education": "Ph.D. in Biomedical Sciences",
+        "experience": "Leadership role in healthcare organization",
+        "location": "Houston, TX",
+        "created_at": "2023-08-20T20:54:12.743Z",
+        "updated_at": "2023-08-21T05:30:38.268Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa306521-bb49-469e-a21a-703cdb728faa",
+        "bio": "Driven by a desire to make a difference",
+        "specialty": "Orthopedics",
+        "education": "Certificate in Medical Coding",
+        "experience": "Specialized training in advanced surgical techniques",
+        "location": "Miami, FL",
+        "created_at": "2023-08-20T17:06:28.099Z",
+        "updated_at": "2023-08-21T08:37:25.237Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "ff5377bc-1a1d-4984-83a1-321c0d04f05e",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication and lifestyle changes",
+        "notes": "Patient shows improvement in symptoms",
+        "created_at": "2023-08-21T01:56:17.336Z",
+        "updated_at": "2023-08-21T12:07:20.965Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "758e05a9-784a-45bf-920a-23f946cf3299",
+        "diagnosis": "Type 2 Diabetes",
+        "treatment": "Insulin therapy and dietary modifications",
+        "notes": "Treatment plan needs adjustment",
+        "created_at": "2023-08-21T09:06:09.393Z",
+        "updated_at": "2023-08-20T22:36:10.806Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "97607851-55d8-41fa-a18f-8fc9088d085e",
+        "diagnosis": "Asthma",
+        "treatment": "Bronchodilators and inhalers",
+        "notes": "Patient requires further diagnostic tests",
+        "created_at": "2023-08-20T20:15:07.880Z",
+        "updated_at": "2023-08-21T03:20:28.479Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e7c70cf0-bd88-4fe4-bc4e-e253693af444",
+        "diagnosis": "Depression",
+        "treatment": "Therapy and antidepressant medication",
+        "notes": "Patient's condition is stable",
+        "created_at": "2023-08-21T12:10:20.363Z",
+        "updated_at": "2023-08-20T17:52:55.446Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d6d056ec-0520-42ce-b788-4ae447af5c56",
+        "diagnosis": "Cancer",
+        "treatment": "Chemotherapy and radiation therapy",
+        "notes": "Patient experiences side effects from medication",
+        "created_at": "2023-08-20T22:00:15.048Z",
+        "updated_at": "2023-08-21T11:08:39.847Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "812ddc37-4bd9-422a-a5db-c550b642a1c8",
+        "date": "2023-08-20T22:09:13.046Z",
+        "time": "2023-08-20T19:32:01.132Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-21T10:04:08.719Z",
+        "updated_at": "2023-08-20T21:33:58.589Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ab0a74de-680f-4535-8b91-f35ff2f5a8d9",
+        "date": "2023-08-21T07:07:23.513Z",
+        "time": "2023-08-21T10:35:12.707Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T04:37:39.269Z",
+        "updated_at": "2023-08-21T11:45:06.963Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "a5756445-c470-4c1f-98ef-70f009397660",
+        "date": "2023-08-20T22:42:57.121Z",
+        "time": "2023-08-21T14:09:09.939Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T07:29:53.861Z",
+        "updated_at": "2023-08-21T11:41:18.574Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "707a28a6-ad20-4eb4-b6aa-f783fc81c795",
+        "date": "2023-08-21T13:17:35.723Z",
+        "time": "2023-08-20T20:44:38.418Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-20T17:28:55.767Z",
+        "updated_at": "2023-08-20T21:50:21.836Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "565db9a2-6dd2-4010-b839-35b701f888e9",
+        "date": "2023-08-20T14:41:47.562Z",
+        "time": "2023-08-21T01:33:48.613Z",
+        "status": "No-show",
+        "created_at": "2023-08-21T06:00:25.223Z",
+        "updated_at": "2023-08-21T13:35:11.029Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "4743c5f2-36a0-43ed-a0f6-681bb5a7ee23",
+        "start_time": "2023-08-20T23:56:48.520Z",
+        "end_time": "2023-08-21T05:52:16.714Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-20T16:50:44.633Z",
+        "updated_at": "2023-08-20T14:58:18.711Z",
+        "appointment_id": "565db9a2-6dd2-4010-b839-35b701f888e9",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "6489ecdd-cbbc-4a0f-b89d-d8b8db2ec072",
+        "start_time": "2023-08-20T19:43:35.474Z",
+        "end_time": "2023-08-21T05:31:46.573Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-20T17:40:15.886Z",
+        "updated_at": "2023-08-20T22:18:11.144Z",
+        "appointment_id": "a5756445-c470-4c1f-98ef-70f009397660",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "7fab7a53-f3c9-46cd-a936-de8ea0e36bc7",
+        "start_time": "2023-08-21T05:13:35.981Z",
+        "end_time": "2023-08-20T16:03:41.575Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-21T10:18:02.966Z",
+        "updated_at": "2023-08-21T01:10:07.091Z",
+        "appointment_id": "ab0a74de-680f-4535-8b91-f35ff2f5a8d9",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "baa76490-4d80-4681-9dc2-352c9f68583a",
+        "start_time": "2023-08-21T13:49:11.889Z",
+        "end_time": "2023-08-20T23:18:54.830Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-21T05:19:12.680Z",
+        "updated_at": "2023-08-21T13:41:39.404Z",
+        "appointment_id": "812ddc37-4bd9-422a-a5db-c550b642a1c8",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "50d12410-125e-4364-b10d-cc43e1a8847b",
+        "start_time": "2023-08-21T07:01:38.363Z",
+        "end_time": "2023-08-21T02:41:49.223Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T03:51:08.217Z",
+        "updated_at": "2023-08-20T14:45:29.703Z",
+        "appointment_id": "812ddc37-4bd9-422a-a5db-c550b642a1c8",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f09a69b-c0bc-406b-93b8-eb0008d13db4",
+        "email": "Emery_Mante@gmail.com",
+        "firstName": "Giovanny",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/467.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9159ce1-2503-4bad-9965-d8b886ddef8d",
+        "email": "Edwardo_Willms@gmail.com",
+        "firstName": "Edmund",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85556962",
+        "tenantId": null
+      },
+      {
+        "reference": "974e9574-eef8-4b8b-af13-1c49ac58341e",
+        "email": "Chyna_Wiegand56@gmail.com",
+        "firstName": "Merritt",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb9e2344-b62f-4b20-ad99-9a26d9b2d3e7",
+        "email": "Krystel15@gmail.com",
+        "firstName": "Joanie",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/571.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aaef011c-11b2-482d-b80b-42f7b450d1fc",
+        "email": "Davon_Cronin@yahoo.com",
+        "firstName": "Destiney",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42084668",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "abb5d008-adfe-4aae-995e-216b67766ad7",
+        "bio": "Passionate about helping others",
+        "specialty": "Cardiology",
+        "education": "Bachelor's degree in Medicine",
+        "experience": "10 years of clinical experience",
+        "location": "New York, USA",
+        "created_at": "2023-08-20T21:03:40.619Z",
+        "updated_at": "2023-08-20T22:58:40.418Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adbc0d63-7340-4521-822e-45dc6cb99211",
+        "bio": "Experienced professional in the field",
+        "specialty": "Dermatology",
+        "education": "Master's degree in Nursing",
+        "experience": "Worked at renowned medical institutions",
+        "location": "London, UK",
+        "created_at": "2023-08-21T13:28:42.418Z",
+        "updated_at": "2023-08-21T05:33:04.327Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62362c82-93a6-4060-9236-b93a3e10b594",
+        "bio": "Committed to providing quality care",
+        "specialty": "Orthopedics",
+        "education": "PhD in Psychology",
+        "experience": "Published research papers in medical journals",
+        "location": "Sydney, Australia",
+        "created_at": "2023-08-20T21:48:39.167Z",
+        "updated_at": "2023-08-21T11:53:05.192Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59b1d021-401b-4a82-9cad-96d6f2f13da3",
+        "bio": "Dedicated to continuous learning",
+        "specialty": "Pediatrics",
+        "education": "Medical residency at XYZ Hospital",
+        "experience": "Presented at international conferences",
+        "location": "Tokyo, Japan",
+        "created_at": "2023-08-20T19:25:01.123Z",
+        "updated_at": "2023-08-21T03:04:30.161Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07ee259f-10eb-4654-b0f4-6cc5b8af2f75",
+        "bio": "Skilled in various techniques",
+        "specialty": "Psychiatry",
+        "education": "Specialized training in XYZ technique",
+        "experience": "Mentored medical students",
+        "location": "Paris, France",
+        "created_at": "2023-08-21T06:49:59.551Z",
+        "updated_at": "2023-08-21T09:10:19.265Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "63ac7602-57a5-446e-8f72-e3d93d412f9f",
+        "diagnosis": "Hypertension",
+        "treatment": "Prescription medication",
+        "notes": "Patient responded well to treatment",
+        "created_at": "2023-08-20T20:38:13.418Z",
+        "updated_at": "2023-08-21T14:40:34.116Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "120183d5-9d94-46c0-9182-255629b3d096",
+        "diagnosis": "Diabetes",
+        "treatment": "Physical therapy",
+        "notes": "Patient's condition improved significantly",
+        "created_at": "2023-08-21T01:00:46.720Z",
+        "updated_at": "2023-08-20T20:45:31.302Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "23434b53-1d31-44fc-96d5-eee711691470",
+        "diagnosis": "Asthma",
+        "treatment": "Surgery",
+        "notes": "Patient experienced mild side effects",
+        "created_at": "2023-08-20T20:45:30.749Z",
+        "updated_at": "2023-08-20T21:12:58.678Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6e783b22-fc65-461a-8fd1-0e8699c3642c",
+        "diagnosis": "Depression",
+        "treatment": "Counseling sessions",
+        "notes": "Patient requires ongoing monitoring",
+        "created_at": "2023-08-21T12:12:33.100Z",
+        "updated_at": "2023-08-20T14:50:39.082Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "f4d39c91-8ce8-4ef4-819f-dce5a6e7c152",
+        "diagnosis": "Cancer",
+        "treatment": "Radiation therapy",
+        "notes": "Patient's symptoms have worsened",
+        "created_at": "2023-08-21T03:39:47.312Z",
+        "updated_at": "2023-08-20T16:45:58.316Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b309635c-fa79-46c3-8442-87a7b9b91906",
+        "date": "2023-08-21T10:41:34.854Z",
+        "time": "2023-08-20T21:56:38.413Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-20T19:40:23.218Z",
+        "updated_at": "2023-08-21T03:23:57.197Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "80953fab-c41b-428c-b9ce-c3b6b88b4b07",
+        "date": "2023-08-21T11:32:14.136Z",
+        "time": "2023-08-20T20:44:22.292Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T13:26:46.428Z",
+        "updated_at": "2023-08-20T19:38:38.336Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "0b5d7066-e2c9-4770-bb86-f535f20b1be0",
+        "date": "2023-08-20T14:52:36.728Z",
+        "time": "2023-08-21T08:06:10.735Z",
+        "status": "Completed",
+        "created_at": "2023-08-20T21:01:07.725Z",
+        "updated_at": "2023-08-21T02:59:16.570Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "2411bbe4-57a6-4d2e-be43-2a5471c034c6",
+        "date": "2023-08-20T22:54:03.579Z",
+        "time": "2023-08-21T09:32:37.566Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-20T20:52:35.975Z",
+        "updated_at": "2023-08-21T04:35:09.509Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "42d1f006-b0d4-4051-9c36-abf6b9c71917",
+        "date": "2023-08-21T00:47:52.241Z",
+        "time": "2023-08-21T04:39:07.688Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T06:58:18.413Z",
+        "updated_at": "2023-08-21T14:03:59.712Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "a975b3a8-5bac-45e9-883c-5a5e2adc7474",
+        "start_time": "2023-08-21T05:32:17.124Z",
+        "end_time": "2023-08-21T09:07:57.301Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-20T16:43:02.126Z",
+        "updated_at": "2023-08-20T21:42:21.808Z",
+        "appointment_id": "b309635c-fa79-46c3-8442-87a7b9b91906",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "103eff2d-49c1-4503-af0c-75d4f76da5c0",
+        "start_time": "2023-08-20T18:45:18.441Z",
+        "end_time": "2023-08-20T17:23:02.338Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-20T20:00:37.517Z",
+        "updated_at": "2023-08-21T04:03:14.069Z",
+        "appointment_id": "80953fab-c41b-428c-b9ce-c3b6b88b4b07",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "514acba6-5dec-4609-925b-f4266d07b634",
+        "start_time": "2023-08-21T07:59:50.671Z",
+        "end_time": "2023-08-20T16:54:23.570Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-21T08:06:20.025Z",
+        "updated_at": "2023-08-20T17:37:25.996Z",
+        "appointment_id": "42d1f006-b0d4-4051-9c36-abf6b9c71917",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "49812ce7-ab62-4376-bdc1-373649e7cef4",
+        "start_time": "2023-08-21T04:26:54.737Z",
+        "end_time": "2023-08-21T14:13:26.151Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-21T07:40:55.580Z",
+        "updated_at": "2023-08-20T20:05:57.898Z",
+        "appointment_id": "2411bbe4-57a6-4d2e-be43-2a5471c034c6",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "2bcacb05-7bf1-4959-a3fc-090836bc55b5",
+        "start_time": "2023-08-21T01:47:24.509Z",
+        "end_time": "2023-08-21T02:26:55.608Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-20T16:02:47.613Z",
+        "updated_at": "2023-08-21T06:29:05.560Z",
+        "appointment_id": "b309635c-fa79-46c3-8442-87a7b9b91906",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5118b685-e332-464a-8eab-f60a5dcedebc",
+        "email": "Kiley.Reilly10@hotmail.com",
+        "firstName": "Peter",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/680.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bea30af7-9768-4499-8ea8-70f1b0229b9b",
+        "email": "Ariel86@hotmail.com",
+        "firstName": "Amanda",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86885217",
+        "tenantId": null
+      },
+      {
+        "reference": "ca13973b-f0ff-4333-99c8-33495be58c1c",
+        "email": "Lea64@gmail.com",
+        "firstName": "Benjamin",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/611.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a354012f-1f7b-4f26-948c-0bc2e4355da3",
+        "email": "Jakob_Lubowitz23@gmail.com",
+        "firstName": "Demario",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/268.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c2d8d700-c8d6-444d-af70-4036b1289fb1",
+        "email": "Nadia57@hotmail.com",
+        "firstName": "Tom",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1155.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "04feb7e2-b228-4196-a0bc-67054c93e77d",
+        "bio": "Passionate about helping others",
+        "specialty": "Cardiology",
+        "education": "Bachelor of Medicine, University of XYZ",
+        "experience": "10 years of clinical experience",
+        "location": "New York, NY",
+        "created_at": "2023-08-21T07:39:27.754Z",
+        "updated_at": "2023-08-20T21:10:36.027Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d2e4caf-b238-4112-8316-e673fb15e641",
+        "bio": "Experienced in various medical specialties",
+        "specialty": "Dermatology",
+        "education": "Master of Science in Nursing, University of ABC",
+        "experience": "5 years of research experience",
+        "location": "Los Angeles, CA",
+        "created_at": "2023-08-20T20:07:15.704Z",
+        "updated_at": "2023-08-20T14:55:53.449Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baf80d1b-ee16-4363-b20e-eb7cbd69ff6c",
+        "bio": "Committed to providing quality care",
+        "specialty": "Endocrinology",
+        "education": "Doctor of Osteopathic Medicine, University of PQR",
+        "experience": "Extensive surgical experience",
+        "location": "Chicago, IL",
+        "created_at": "2023-08-20T22:29:59.997Z",
+        "updated_at": "2023-08-20T15:37:41.703Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6fa431b-accb-48fd-a843-3676aba23e10",
+        "bio": "Dedicated to lifelong learning",
+        "specialty": "Gastroenterology",
+        "education": "Bachelor of Science in Pharmacy, University of LMN",
+        "experience": "Expertise in pediatric care",
+        "location": "Houston, TX",
+        "created_at": "2023-08-21T04:53:37.592Z",
+        "updated_at": "2023-08-20T20:45:55.106Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6206bd50-4d23-4885-898a-d35ad9403440",
+        "bio": "Advocating for patient rights",
+        "specialty": "Neurology",
+        "education": "Doctor of Dental Surgery, University of EFG",
+        "experience": "Specializes in geriatric medicine",
+        "location": "Philadelphia, PA",
+        "created_at": "2023-08-21T09:07:42.699Z",
+        "updated_at": "2023-08-21T10:37:43.508Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "493c016b-5643-4372-be24-a6d38406db83",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication management",
+        "notes": "Patient responded well to treatment",
+        "created_at": "2023-08-20T21:24:41.579Z",
+        "updated_at": "2023-08-21T04:28:33.858Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e8230e7c-92f5-4db7-ab31-28023b24bf8b",
+        "diagnosis": "Diabetes Mellitus",
+        "treatment": "Physical therapy",
+        "notes": "Requires ongoing monitoring",
+        "created_at": "2023-08-21T13:45:42.638Z",
+        "updated_at": "2023-08-20T17:15:48.351Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d44a13db-9121-4b1e-a9cc-cb303d76e7ea",
+        "diagnosis": "Asthma",
+        "treatment": "Surgical intervention",
+        "notes": "Family history of the condition",
+        "created_at": "2023-08-20T20:50:23.536Z",
+        "updated_at": "2023-08-21T00:38:36.081Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "09928370-39ed-4692-a47c-fc90de1488e5",
+        "diagnosis": "Cancer",
+        "treatment": "Psychotherapy",
+        "notes": "Allergies to certain medications",
+        "created_at": "2023-08-20T15:32:58.010Z",
+        "updated_at": "2023-08-20T23:33:41.405Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "2f48082c-07e8-4096-a344-478a113f889c",
+        "diagnosis": "Depression",
+        "treatment": "Radiation therapy",
+        "notes": "Previous surgeries performed",
+        "created_at": "2023-08-20T17:00:50.902Z",
+        "updated_at": "2023-08-21T13:22:36.077Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9d943a20-e8d9-46cb-9e41-a1d6bafa5ec5",
+        "date": "2023-08-20T15:15:24.259Z",
+        "time": "2023-08-21T01:14:05.627Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-21T13:13:38.301Z",
+        "updated_at": "2023-08-21T12:20:26.689Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "01b70502-27ee-4e0f-974c-a4aaedf70bad",
+        "date": "2023-08-21T12:18:35.668Z",
+        "time": "2023-08-21T02:20:46.948Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T12:52:54.747Z",
+        "updated_at": "2023-08-20T15:46:28.916Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "b6a06bc4-c11d-4f00-99c4-3a7c2caeb9cc",
+        "date": "2023-08-21T07:04:37.685Z",
+        "time": "2023-08-21T06:10:43.905Z",
+        "status": "Completed",
+        "created_at": "2023-08-20T16:08:32.002Z",
+        "updated_at": "2023-08-20T23:18:36.262Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "84f11b7e-9723-4b9c-83dc-be02dcfff64f",
+        "date": "2023-08-21T14:27:37.027Z",
+        "time": "2023-08-21T09:45:54.505Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-21T08:57:43.586Z",
+        "updated_at": "2023-08-20T18:48:14.376Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "fc065f3c-8436-43b3-9463-acfb7f6fd5e5",
+        "date": "2023-08-20T18:44:44.012Z",
+        "time": "2023-08-21T03:40:58.399Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T11:26:46.447Z",
+        "updated_at": "2023-08-20T16:38:29.176Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "7ef8eab3-752d-4dff-9a1e-5b77ef91ee4d",
+        "start_time": "2023-08-20T15:58:18.086Z",
+        "end_time": "2023-08-20T22:56:09.121Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-21T04:03:04.710Z",
+        "updated_at": "2023-08-20T17:50:21.440Z",
+        "appointment_id": "9d943a20-e8d9-46cb-9e41-a1d6bafa5ec5",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "f0f616a2-b369-4389-90a2-7dff56fd0a8b",
+        "start_time": "2023-08-20T19:49:45.256Z",
+        "end_time": "2023-08-21T02:20:20.221Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-21T06:15:22.916Z",
+        "updated_at": "2023-08-21T07:54:41.794Z",
+        "appointment_id": "9d943a20-e8d9-46cb-9e41-a1d6bafa5ec5",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "8a69164a-b51e-4375-baee-188bfb8063d5",
+        "start_time": "2023-08-21T10:45:35.897Z",
+        "end_time": "2023-08-21T05:14:28.086Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-21T07:52:37.579Z",
+        "updated_at": "2023-08-21T14:25:59.922Z",
+        "appointment_id": "fc065f3c-8436-43b3-9463-acfb7f6fd5e5",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "97dced7d-935b-49bd-b505-e948d3ac66c4",
+        "start_time": "2023-08-21T08:49:02.871Z",
+        "end_time": "2023-08-21T05:56:00.936Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-20T17:19:32.428Z",
+        "updated_at": "2023-08-20T20:45:00.440Z",
+        "appointment_id": "84f11b7e-9723-4b9c-83dc-be02dcfff64f",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "afefe599-4945-4e1f-a3c8-c7d47cf1e1bb",
+        "start_time": "2023-08-21T12:56:10.345Z",
+        "end_time": "2023-08-20T21:09:44.566Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T11:13:36.816Z",
+        "updated_at": "2023-08-21T01:37:38.079Z",
+        "appointment_id": "b6a06bc4-c11d-4f00-99c4-3a7c2caeb9cc",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9996082f-9684-4975-98a2-18db4012972a",
+        "email": "Jasmin.Prohaska53@gmail.com",
+        "firstName": "Jarrell",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1211.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "648443cb-8758-448f-903f-8b266390a47e",
+        "email": "Reta.Ortiz15@hotmail.com",
+        "firstName": "Agustina",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/904.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb9bc702-e8ce-4db8-b19a-33baa584d093",
+        "email": "Chanel_Parker38@hotmail.com",
+        "firstName": "Kevon",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/769.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0110eaf7-5c89-4a85-ae29-1965ef43afec",
+        "email": "Freeman46@gmail.com",
+        "firstName": "Kole",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/806.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45405e9c-9dba-44f2-aa16-a255f79e54c8",
+        "email": "Stephania_Hauck82@yahoo.com",
+        "firstName": "Jessyca",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68762055",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "cd915991-d18e-4652-94c1-241482dca103",
+        "bio": "Passionate about helping others",
+        "specialty": "Cardiology",
+        "education": "Bachelor of Medicine",
+        "experience": "10 years of clinical experience",
+        "location": "New York, NY",
+        "created_at": "2023-08-20T21:52:37.203Z",
+        "updated_at": "2023-08-21T00:59:54.860Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a014a1b7-53f5-4840-b621-b38c447018a9",
+        "bio": "Experienced in treating chronic illnesses",
+        "specialty": "Dermatology",
+        "education": "Master of Science in Nursing",
+        "experience": "5 years of research experience",
+        "location": "Los Angeles, CA",
+        "created_at": "2023-08-21T07:55:23.963Z",
+        "updated_at": "2023-08-21T05:03:47.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b52d2fd-79dc-4644-8b1d-f2ec7aa258c6",
+        "bio": "Dedicated to providing personalized care",
+        "specialty": "Neurology",
+        "education": "Doctor of Osteopathic Medicine",
+        "experience": "Extensive experience in emergency medicine",
+        "location": "Chicago, IL",
+        "created_at": "2023-08-21T02:50:38.311Z",
+        "updated_at": "2023-08-20T21:23:15.055Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e5ca7ff-a929-4d45-99cd-f82afd8a5c97",
+        "bio": "Committed to continuous learning",
+        "specialty": "Orthopedics",
+        "education": "PhD in Psychology",
+        "experience": "Specializes in geriatric care",
+        "location": "Houston, TX",
+        "created_at": "2023-08-20T23:04:01.540Z",
+        "updated_at": "2023-08-21T11:48:09.932Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0051b3a1-00da-455e-bc2a-93964470ed25",
+        "bio": "Skilled in surgical procedures",
+        "specialty": "Pediatrics",
+        "education": "Bachelor of Dental Surgery",
+        "experience": "Expertise in treating sports injuries",
+        "location": "Miami, FL",
+        "created_at": "2023-08-21T06:20:16.073Z",
+        "updated_at": "2023-08-21T13:22:22.772Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "8aba0735-a365-47cb-a72a-bcf4d025bddd",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication and lifestyle changes",
+        "notes": "Patient shows improvement in blood pressure",
+        "created_at": "2023-08-21T03:15:44.848Z",
+        "updated_at": "2023-08-21T13:26:02.312Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d06672ef-c88f-4290-a750-70650ac05754",
+        "diagnosis": "Diabetes",
+        "treatment": "Insulin therapy and dietary modifications",
+        "notes": "Patient's blood sugar levels are stable",
+        "created_at": "2023-08-21T11:47:10.393Z",
+        "updated_at": "2023-08-20T15:43:46.810Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "5b5b41af-92ea-403e-a421-714f1f0c4847",
+        "diagnosis": "Asthma",
+        "treatment": "Bronchodilators and inhalers",
+        "notes": "Patient experiences occasional wheezing",
+        "created_at": "2023-08-20T15:53:44.761Z",
+        "updated_at": "2023-08-21T14:30:39.297Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "cd2a9f08-6719-4312-933b-3d79a4595f3a",
+        "diagnosis": "Depression",
+        "treatment": "Therapy and antidepressant medication",
+        "notes": "Patient has history of anxiety disorder",
+        "created_at": "2023-08-21T11:25:38.878Z",
+        "updated_at": "2023-08-20T21:43:26.656Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "075bb582-e845-419d-932a-3623637880fc",
+        "diagnosis": "Cancer",
+        "treatment": "Chemotherapy and radiation",
+        "notes": "Patient is responding well to treatment",
+        "created_at": "2023-08-20T21:37:33.982Z",
+        "updated_at": "2023-08-20T19:02:54.512Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "0d56583c-af75-433d-9c34-65473daaf8ae",
+        "date": "2023-08-21T04:47:11.827Z",
+        "time": "2023-08-21T10:02:59.134Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-21T03:59:30.632Z",
+        "updated_at": "2023-08-20T19:35:38.699Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "613324cf-3ee3-4899-82da-4731a1b4a8ac",
+        "date": "2023-08-21T04:47:47.064Z",
+        "time": "2023-08-21T08:52:41.882Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T18:17:34.100Z",
+        "updated_at": "2023-08-21T09:50:28.999Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "dea1c8fe-bef8-4a28-a160-b9da14b2d7b1",
+        "date": "2023-08-21T09:26:56.622Z",
+        "time": "2023-08-20T18:03:02.649Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T04:38:22.212Z",
+        "updated_at": "2023-08-21T07:25:33.632Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1687b97e-d60f-4278-bc5d-b5aa3c224e1e",
+        "date": "2023-08-21T13:10:21.312Z",
+        "time": "2023-08-20T17:16:10.724Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-21T11:42:07.002Z",
+        "updated_at": "2023-08-20T23:49:55.172Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6e5d7c6f-1b17-47b7-bc33-4e12da44b713",
+        "date": "2023-08-21T01:25:07.173Z",
+        "time": "2023-08-21T08:14:17.275Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T07:37:19.066Z",
+        "updated_at": "2023-08-20T22:47:16.749Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "eb3b8130-8705-49bf-876c-17af97260c53",
+        "start_time": "2023-08-20T19:05:13.132Z",
+        "end_time": "2023-08-20T21:26:57.755Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-21T03:14:48.168Z",
+        "updated_at": "2023-08-21T11:21:43.604Z",
+        "appointment_id": "613324cf-3ee3-4899-82da-4731a1b4a8ac",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "f9bc878c-c5f3-4531-9e01-f83700b303da",
+        "start_time": "2023-08-20T17:50:39.541Z",
+        "end_time": "2023-08-21T01:16:55.450Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-21T02:09:30.825Z",
+        "updated_at": "2023-08-21T09:13:35.017Z",
+        "appointment_id": "613324cf-3ee3-4899-82da-4731a1b4a8ac",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "eff80032-93bd-4ead-adbd-bc20481968c5",
+        "start_time": "2023-08-20T21:59:49.381Z",
+        "end_time": "2023-08-20T16:29:52.344Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-21T00:46:28.585Z",
+        "updated_at": "2023-08-21T05:12:23.619Z",
+        "appointment_id": "0d56583c-af75-433d-9c34-65473daaf8ae",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "da5166cc-b654-478a-ac62-95430d8d9f07",
+        "start_time": "2023-08-21T01:31:23.690Z",
+        "end_time": "2023-08-21T05:41:16.371Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-20T18:20:37.822Z",
+        "updated_at": "2023-08-21T07:36:02.292Z",
+        "appointment_id": "dea1c8fe-bef8-4a28-a160-b9da14b2d7b1",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "fb68afa5-1975-468e-bb5f-e5e439b021b2",
+        "start_time": "2023-08-21T01:52:44.927Z",
+        "end_time": "2023-08-21T02:38:34.660Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T07:59:59.040Z",
+        "updated_at": "2023-08-21T12:26:52.848Z",
+        "appointment_id": "613324cf-3ee3-4899-82da-4731a1b4a8ac",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "95b6b339-06c3-4283-9c71-306ed825a5a1",
+        "email": "Chauncey.Brakus74@gmail.com",
+        "firstName": "Maye",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/926.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2040b847-2581-45dd-9ab0-b03ed48aeed3",
+        "email": "Gino22@gmail.com",
+        "firstName": "Lavina",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17707375",
+        "tenantId": null
+      },
+      {
+        "reference": "b6682bb4-c51a-4bfc-8abb-1e6c48c6a474",
+        "email": "Nasir_Dibbert90@gmail.com",
+        "firstName": "Curtis",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/931.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0f662d1c-4e88-4d4f-bc98-861de77a68a1",
+        "email": "Whitney.Kautzer71@gmail.com",
+        "firstName": "Fatima",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1005.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4af65607-4961-4e4b-aab4-c83370620759",
+        "email": "Darrin_Ruecker@hotmail.com",
+        "firstName": "Kailyn",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/634.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "d8f3a277-53b0-40a6-bf5f-f8985743c7c5",
+        "bio": "Passionate about helping others",
+        "specialty": "Cardiology",
+        "education": "Bachelor of Medicine, XYZ University",
+        "experience": "10 years of clinical experience",
+        "location": "New York, USA",
+        "created_at": "2023-08-20T21:48:59.164Z",
+        "updated_at": "2023-08-21T06:03:16.178Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ace073e-a74a-49ae-a718-5a25a1b94fb4",
+        "bio": "Experienced in various medical fields",
+        "specialty": "Pediatrics",
+        "education": "Master of Science in Nursing, ABC University",
+        "experience": "Specialized in minimally invasive procedures",
+        "location": "London, UK",
+        "created_at": "2023-08-21T09:17:03.240Z",
+        "updated_at": "2023-08-21T08:14:28.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0947bac-bba8-4d94-9616-a1da69b6c3fc",
+        "bio": "Committed to providing quality care",
+        "specialty": "Orthopedics",
+        "education": "Doctor of Dental Surgery, DEF University",
+        "experience": "Published research papers in renowned journals",
+        "location": "Paris, France",
+        "created_at": "2023-08-20T16:22:15.882Z",
+        "updated_at": "2023-08-21T05:54:47.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94cf50c6-cb7c-465f-9043-8f2e83dda917",
+        "bio": "Dedicated to continuous learning",
+        "specialty": "Dermatology",
+        "education": "Bachelor of Pharmacy, GHI University",
+        "experience": "Trained in advanced surgical techniques",
+        "location": "Sydney, Australia",
+        "created_at": "2023-08-20T15:55:56.449Z",
+        "updated_at": "2023-08-21T12:30:14.643Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b7c0faf-1d8e-4f93-a38a-94e62509b3db",
+        "bio": "Skilled in patient communication",
+        "specialty": "Neurology",
+        "education": "Bachelor of Science in Physical Therapy, JKL University",
+        "experience": "Volunteered in medical missions",
+        "location": "Tokyo, Japan",
+        "created_at": "2023-08-21T02:54:06.621Z",
+        "updated_at": "2023-08-21T06:03:03.243Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "fb54fd14-ead2-4177-bfd3-2d81f542d32c",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication management",
+        "notes": "Patient shows improvement in symptoms",
+        "created_at": "2023-08-21T06:20:14.484Z",
+        "updated_at": "2023-08-21T09:40:45.926Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "614cb49f-5a92-4899-a706-a72f2158cba5",
+        "diagnosis": "Diabetes Mellitus",
+        "treatment": "Physical therapy sessions",
+        "notes": "Treatment plan adjusted based on progress",
+        "created_at": "2023-08-21T04:43:34.194Z",
+        "updated_at": "2023-08-20T15:04:19.416Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "3825b9bf-ac91-4dc1-9364-42f665402603",
+        "diagnosis": "Asthma",
+        "treatment": "Surgical intervention",
+        "notes": "Recommend regular follow-up appointments",
+        "created_at": "2023-08-20T18:41:08.920Z",
+        "updated_at": "2023-08-20T17:20:18.800Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "55b4aa03-451d-4343-8255-baba328fbc15",
+        "diagnosis": "Cancer",
+        "treatment": "Counseling and therapy",
+        "notes": "Patient experiencing side effects from medication",
+        "created_at": "2023-08-21T01:51:20.598Z",
+        "updated_at": "2023-08-21T13:37:30.813Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6c8e1ab8-3172-4752-ba36-c93a590e4ba9",
+        "diagnosis": "Depression",
+        "treatment": "Lifestyle modifications",
+        "notes": "Family history of the condition",
+        "created_at": "2023-08-21T01:09:21.741Z",
+        "updated_at": "2023-08-20T17:34:32.955Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "6075fdc3-e574-4388-af37-3c7ccb46b84e",
+        "date": "2023-08-21T04:00:28.703Z",
+        "time": "2023-08-21T07:46:24.624Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-21T03:24:29.998Z",
+        "updated_at": "2023-08-21T06:09:58.887Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "21b08ed6-c1ce-46e2-9497-e0e58d018443",
+        "date": "2023-08-20T17:32:32.106Z",
+        "time": "2023-08-20T16:50:05.121Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T02:14:02.146Z",
+        "updated_at": "2023-08-20T16:42:20.736Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "e68d190b-6eb7-4490-bfaf-8073dac03966",
+        "date": "2023-08-20T18:10:08.099Z",
+        "time": "2023-08-21T09:51:04.798Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T07:06:42.283Z",
+        "updated_at": "2023-08-20T19:12:25.355Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "d70d72e2-c6e0-401d-b06d-dd9b1b051dbc",
+        "date": "2023-08-20T21:22:35.896Z",
+        "time": "2023-08-21T03:23:29.714Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-21T02:40:11.033Z",
+        "updated_at": "2023-08-20T14:48:47.073Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "aff240a6-936c-4678-8ec7-dedd399f1268",
+        "date": "2023-08-21T10:52:34.899Z",
+        "time": "2023-08-21T08:49:30.882Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T10:06:39.679Z",
+        "updated_at": "2023-08-21T09:15:53.179Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "342ac9b3-8926-4d4d-8968-3eb38752bb77",
+        "start_time": "2023-08-21T14:33:20.171Z",
+        "end_time": "2023-08-20T22:16:28.671Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-21T00:31:00.288Z",
+        "updated_at": "2023-08-21T04:42:18.587Z",
+        "appointment_id": "aff240a6-936c-4678-8ec7-dedd399f1268",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "715d35b5-cd9a-482f-9435-b8355fb347ab",
+        "start_time": "2023-08-20T20:12:00.099Z",
+        "end_time": "2023-08-21T01:10:33.931Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-21T06:54:59.790Z",
+        "updated_at": "2023-08-21T03:13:27.040Z",
+        "appointment_id": "aff240a6-936c-4678-8ec7-dedd399f1268",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "aba81c0a-b54c-4748-b1ca-3bda8c3c1b15",
+        "start_time": "2023-08-21T02:25:22.385Z",
+        "end_time": "2023-08-20T17:59:26.148Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-20T15:06:32.068Z",
+        "updated_at": "2023-08-21T01:30:28.301Z",
+        "appointment_id": "6075fdc3-e574-4388-af37-3c7ccb46b84e",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "1c3dfcf1-0ad6-47d2-8208-65876a49f4d7",
+        "start_time": "2023-08-21T01:07:28.007Z",
+        "end_time": "2023-08-20T15:06:28.592Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-20T21:22:56.248Z",
+        "updated_at": "2023-08-20T20:54:42.128Z",
+        "appointment_id": "6075fdc3-e574-4388-af37-3c7ccb46b84e",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "b57e82da-a3e5-4d47-9364-835e47d190d0",
+        "start_time": "2023-08-20T21:32:41.909Z",
+        "end_time": "2023-08-21T13:13:01.246Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T12:34:03.465Z",
+        "updated_at": "2023-08-21T13:26:06.100Z",
+        "appointment_id": "21b08ed6-c1ce-46e2-9497-e0e58d018443",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b1c13926-3851-4c3d-86d1-578c53c08f68",
+        "email": "Clinton_Abbott@gmail.com",
+        "firstName": "Felipe",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1096.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7082ca20-55b0-490c-b95e-6b0a7f57a545",
+        "email": "Colby.Klein21@hotmail.com",
+        "firstName": "Wiley",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53911354",
+        "tenantId": null
+      },
+      {
+        "reference": "e46c496f-3eb9-4d27-99f6-fe8e053dd339",
+        "email": "Westley59@gmail.com",
+        "firstName": "Clara",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/626.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53cf4fd1-cabe-4a20-9e57-b70a162abf98",
+        "email": "Arielle_Hand@hotmail.com",
+        "firstName": "Elinor",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68873690",
+        "tenantId": null
+      },
+      {
+        "reference": "431bf3cf-1179-41b2-b760-2bed78ada4f6",
+        "email": "Paolo.Orn@gmail.com",
+        "firstName": "Neoma",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "98370295-5360-483b-95ca-f11626046d51",
+        "bio": "Passionate about helping others",
+        "specialty": "Internal Medicine",
+        "education": "MD from Harvard Medical School",
+        "experience": "10 years of clinical experience",
+        "location": "New York, NY",
+        "created_at": "2023-08-20T14:56:04.158Z",
+        "updated_at": "2023-08-20T19:38:21.521Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cda2c07a-e046-4514-9c36-bebe945e38d7",
+        "bio": "Experienced in treating chronic pain",
+        "specialty": "Orthopedics",
+        "education": "DO from University of California",
+        "experience": "Board-certified in their specialty",
+        "location": "Los Angeles, CA",
+        "created_at": "2023-08-21T09:20:54.283Z",
+        "updated_at": "2023-08-20T16:04:29.526Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f74bdc94-bb56-4ce9-983c-eba6fd478f28",
+        "bio": "Dedicated to providing quality care",
+        "specialty": "Cardiology",
+        "education": "MBBS from Oxford University",
+        "experience": "Published numerous research papers",
+        "location": "Chicago, IL",
+        "created_at": "2023-08-21T02:07:05.563Z",
+        "updated_at": "2023-08-20T16:27:16.914Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8567b3fa-2402-4c5f-856c-89d697d93b9d",
+        "bio": "Specializes in pediatric medicine",
+        "specialty": "Pediatrics",
+        "education": "MD from Stanford University",
+        "experience": "Completed advanced fellowship training",
+        "location": "Houston, TX",
+        "created_at": "2023-08-20T20:31:57.519Z",
+        "updated_at": "2023-08-20T21:39:36.644Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "857facf5-2472-4e08-b57d-13e882d18daa",
+        "bio": "Committed to patient education",
+        "specialty": "Dermatology",
+        "education": "MBChB from University of Edinburgh",
+        "experience": "Served as chief resident during residency",
+        "location": "Philadelphia, PA",
+        "created_at": "2023-08-20T16:23:35.195Z",
+        "updated_at": "2023-08-20T19:51:26.297Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "medical_history": [
+      {
+        "id": "77c594d5-5d9b-4d2a-b777-6b9ba442ebb9",
+        "diagnosis": "Hypertension",
+        "treatment": "Medication and lifestyle changes",
+        "notes": "Patient has a family history of heart disease",
+        "created_at": "2023-08-20T20:13:00.941Z",
+        "updated_at": "2023-08-20T23:14:49.503Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "6187af5f-be69-4b47-8d1e-134044600a12",
+        "diagnosis": "Diabetes",
+        "treatment": "Insulin therapy and diet management",
+        "notes": "Patient is allergic to penicillin",
+        "created_at": "2023-08-20T16:53:48.256Z",
+        "updated_at": "2023-08-20T15:53:35.580Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "37eca391-fc9b-48e3-886e-0c75baec2807",
+        "diagnosis": "Asthma",
+        "treatment": "Inhalers and breathing exercises",
+        "notes": "Patient experienced significant weight loss",
+        "created_at": "2023-08-21T09:10:29.043Z",
+        "updated_at": "2023-08-21T13:08:53.941Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "f0438510-5d80-4a03-a76e-523c5064a7fd",
+        "diagnosis": "Depression",
+        "treatment": "Therapy and medication",
+        "notes": "Patient has a history of anxiety disorder",
+        "created_at": "2023-08-20T17:32:22.485Z",
+        "updated_at": "2023-08-20T21:53:30.708Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "ba137d66-0b60-4b48-bd88-e0139e1e244f",
+        "diagnosis": "Cancer",
+        "treatment": "Chemotherapy and radiation",
+        "notes": "Patient underwent successful surgery",
+        "created_at": "2023-08-20T17:34:39.819Z",
+        "updated_at": "2023-08-21T08:01:45.913Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3eb34e5e-5ea1-4954-8d5d-ed1cf6c39f3a",
+        "date": "2023-08-20T23:30:02.976Z",
+        "time": "2023-08-21T02:49:37.703Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-20T21:07:55.940Z",
+        "updated_at": "2023-08-21T03:03:29.938Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "38ab027d-146e-4b64-b720-02d4a6ae1fcf",
+        "date": "2023-08-21T05:56:28.358Z",
+        "time": "2023-08-21T02:42:30.886Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T23:48:41.740Z",
+        "updated_at": "2023-08-20T17:58:42.798Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "52aae6dd-0d85-479e-b21f-20e952f84f09",
+        "date": "2023-08-21T12:26:42.596Z",
+        "time": "2023-08-21T04:51:40.553Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T01:48:18.551Z",
+        "updated_at": "2023-08-21T01:33:19.039Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "173e33a2-ee22-4d5c-8c69-ffc2129d7bee",
+        "date": "2023-08-21T13:48:13.337Z",
+        "time": "2023-08-21T13:30:47.699Z",
+        "status": "Completed",
+        "created_at": "2023-08-21T01:57:25.671Z",
+        "updated_at": "2023-08-21T02:24:25.743Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      },
+      {
+        "id": "1a2bb985-a5ba-4410-aaf4-e9109be665fe",
+        "date": "2023-08-21T11:50:29.590Z",
+        "time": "2023-08-20T22:55:23.963Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-21T04:39:04.899Z",
+        "updated_at": "2023-08-21T01:06:11.506Z",
+        "doctor_id": "user_entity_pk",
+        "patient_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "6a4b3084-e908-49f4-969a-f2114edc5697",
+        "start_time": "2023-08-21T05:19:39.763Z",
+        "end_time": "2023-08-20T20:03:31.716Z",
+        "day_of_week": "Monday",
+        "created_at": "2023-08-21T11:29:28.855Z",
+        "updated_at": "2023-08-21T03:31:13.543Z",
+        "appointment_id": "1a2bb985-a5ba-4410-aaf4-e9109be665fe",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "6deb0929-c811-488f-93f9-542c33c0913f",
+        "start_time": "2023-08-20T17:29:43.158Z",
+        "end_time": "2023-08-21T04:54:10.595Z",
+        "day_of_week": "Tuesday",
+        "created_at": "2023-08-21T13:03:54.349Z",
+        "updated_at": "2023-08-20T16:59:19.423Z",
+        "appointment_id": "3eb34e5e-5ea1-4954-8d5d-ed1cf6c39f3a",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "55267cac-196d-40ee-b78e-253ac2d8367d",
+        "start_time": "2023-08-21T12:36:28.804Z",
+        "end_time": "2023-08-20T22:42:25.202Z",
+        "day_of_week": "Wednesday",
+        "created_at": "2023-08-21T07:33:10.846Z",
+        "updated_at": "2023-08-20T16:51:36.174Z",
+        "appointment_id": "173e33a2-ee22-4d5c-8c69-ffc2129d7bee",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "c0a37ea0-8d03-40aa-85db-eb9474bcf97d",
+        "start_time": "2023-08-21T01:01:29.033Z",
+        "end_time": "2023-08-20T19:34:46.668Z",
+        "day_of_week": "Thursday",
+        "created_at": "2023-08-20T17:41:54.267Z",
+        "updated_at": "2023-08-20T22:45:24.449Z",
+        "appointment_id": "38ab027d-146e-4b64-b720-02d4a6ae1fcf",
+        "doctor_id": "user_entity_pk"
+      },
+      {
+        "id": "41a5d411-98e0-44ee-b3d8-5441c8534b18",
+        "start_time": "2023-08-20T21:02:47.953Z",
+        "end_time": "2023-08-21T02:58:34.400Z",
+        "day_of_week": "Friday",
+        "created_at": "2023-08-21T08:03:30.370Z",
+        "updated_at": "2023-08-21T11:46:42.801Z",
+        "appointment_id": "1a2bb985-a5ba-4410-aaf4-e9109be665fe",
+        "doctor_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d403fbd1-5d31-4d2d-956b-af62e3e743dc",
+        "email": "Jacinthe66@yahoo.com",
+        "firstName": "Mayra",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/364.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0adc5200-a8cb-4aa5-b53a-e344b07bc625",
+        "email": "Brycen_McKenzie@gmail.com",
+        "firstName": "Wayne",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12783113",
+        "tenantId": null
+      },
+      {
+        "reference": "d6c2bc18-0319-4be8-a6cf-b77d9b81ef8e",
+        "email": "Brook70@gmail.com",
+        "firstName": "Levi",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90799133",
+        "tenantId": null
+      },
+      {
+        "reference": "227a85f2-cd29-44dd-8ddd-8a0ef18c50b4",
+        "email": "Barry_Schultz-Konopelski64@hotmail.com",
+        "firstName": "Albert",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29008530",
+        "tenantId": null
+      },
+      {
+        "reference": "f11d3c54-442c-4bf1-aa16-68c228c3fcd4",
+        "email": "Jammie.McClure@yahoo.com",
+        "firstName": "Shanon",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/797.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
